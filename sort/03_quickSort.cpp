@@ -102,12 +102,9 @@ int main() {
 }
 
 // Time Complexity
-// 최선의 경우(Best cases) : T(n) = O(nlog₂n)
 // 최악의 경우(Worst cases) : T(n) = O(n^2)		 정렬하고자 하는 배열이 오름차순 정렬되어있거나 내림차순 정렬되어있는 경우
 // 평균의 경우(Average cases) : T(n) = O(nlog₂n)
-// 
-// 모두 정렬이 되어있는 경우(Optimal)한 경우, 한번씩 밖에 비교를 안하므로 O(n) 의 시간복잡도를 가지게 된다.
-// 또한, 이미 정렬되어 있는 배열에 자료를 하나씩 삽입/제거하는 경우에는, 현실적으로 최고의 정렬 알고리즘이 되는데, 탐색을 제외한 오버헤드가 매우 적기 때문이다.
+
 // Space Complexity : O(n)
 // Execution Time (sec) : 0.00500
 
